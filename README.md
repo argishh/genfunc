@@ -80,13 +80,21 @@ func.initialize(provider="openai")
 # Generate a function without calling it
 func.generate("Create a function that calculates the factorial of a number")
 
+# import the function 
+from helpers.file_name import function_name
+```
+
+Alternatively,
+
+```python
 # Generate and immediately call a function
 result = func.generate(
     "Create a function that adds two numbers", 
-    call=True, 
-    a=5, 
-    b=3
+    call=True, # calls the function
+    a=5, # arg1
+    b=3  # arg2
 )
+
 print(result)  # Output: 8
 ```
 
