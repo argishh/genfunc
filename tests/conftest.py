@@ -1,8 +1,9 @@
-import pytest
 import os
 from pathlib import Path
-from func import func
+
+import pytest
 from dotenv import load_dotenv
+
 
 @pytest.fixture(scope="session")
 def cleanup_helpers():

@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from func import func
+from genfunc import func
 
 def test_generate_function(cleanup_helpers, openai_api_key):
     func.initialize(provider="openai", api_key=openai_api_key)

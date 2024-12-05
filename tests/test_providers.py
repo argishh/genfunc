@@ -3,8 +3,8 @@ import os
 import pytest
 from dotenv import load_dotenv
 
-from func.core.llm_providers.anthropic_provider import AnthropicProvider
-from func.core.llm_providers.openai_provider import OpenAIProvider
+from genfunc.core.llm_providers.anthropic_provider import AnthropicProvider
+from genfunc.core.llm_providers.openai_provider import OpenAIProvider
 
 load_dotenv()
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')

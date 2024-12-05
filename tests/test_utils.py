@@ -1,5 +1,5 @@
 import pytest
-from func.core.utils import sanitize_function_name, validate_python_code
+from genfunc.core.utils import sanitize_function_name, validate_python_code
 
 def test_sanitize_function_name():
     # Test valid function code
