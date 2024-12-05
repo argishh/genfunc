@@ -2,11 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name="genfunc",
-    version="0.1.0",
+    version="1.0.0",
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        "python-dotenv>=7.0.0",
+        "python-dotenv>=0.10.0",
     ],
     author="Argish",
     author_email="argish.official@gmail.com",

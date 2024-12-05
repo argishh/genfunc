@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "genfunc"
-version = "0.1.0"
+version = "1.0.0"
 authors = [
     { name = "Argish", email = "argish.official@gmail.com" },
 ]
@@ -17,7 +17,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "python-dotenv>=7.0.0",
+    "python-dotenv>=0.10.0",
 ]
 
 [project.urls]
